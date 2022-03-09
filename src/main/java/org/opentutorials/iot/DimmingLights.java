@@ -1,7 +1,5 @@
 package org.opentutorials.iot;
 
-import Programming.org.opentutorials.iot.Lighting;
-
 public class DimmingLights extends Lighting {
 
 	double _bright;
