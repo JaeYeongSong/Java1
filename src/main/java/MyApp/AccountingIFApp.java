@@ -9,6 +9,7 @@ public class AccountingIFApp {
         double total = valueOfSupply + valueOfSupply * vatRate;
         double expense = valueOfSupply * expenseRate;
         double income = valueOfSupply - valueOfSupply * expenseRate;
+
         double dividend1;
         double dividend2;
         double dividend3;
