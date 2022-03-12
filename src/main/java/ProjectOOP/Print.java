@@ -1,6 +1,10 @@
 package ProjectOOP;
 
 class Print {
+    public Print(String delimiter) {
+        this.delimiter = delimiter;
+    }
+
     public String delimiter;
 
     public void A() {
