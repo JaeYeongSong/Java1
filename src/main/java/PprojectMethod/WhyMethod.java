@@ -3,16 +3,19 @@ package PprojectMethod;
 public class WhyMethod {
     public static void main(String[] args) {
         // Code...
-        printTwoTimesA();
+                      // 인자, argument
+        printTwoTimes("a", "-");
         // Code...
-        printTwoTimesA();
+        printTwoTimes("a", "*");
         // Code...
-        printTwoTimesA();
+        printTwoTimes("a", "&");
+        printTwoTimes("b", "!");
     }
 
-    public static void printTwoTimesA() {
-        System.out.println("-");
-        System.out.println("A");
-        System.out.println("A");
+                                     // 매개변수, parameter
+    public static void printTwoTimes(String text, String delimiter) {
+        System.out.println(delimiter);
+        System.out.println(text);
+        System.out.println(text);
     }
 }
