@@ -1,4 +1,4 @@
-package PprojectMethod;
+package ProjectMethod;
 
 public class FirstMethod {
     public static void main(String[] args) {
