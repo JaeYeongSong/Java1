@@ -1,16 +1,16 @@
 package ProjectOOP;
 
 class Print {
-    public static String delimiter;
+    public String delimiter;
 
-    public static void A() {
-        System.out.println(delimiter);
+    public void A() {
+        System.out.println(this.delimiter);
         System.out.println("A");
         System.out.println("A");
     }
 
-    public static void B() {
-        System.out.println(delimiter);
+    public void B() {
+        System.out.println(this.delimiter);
         System.out.println("B");
         System.out.println("B");
     }
