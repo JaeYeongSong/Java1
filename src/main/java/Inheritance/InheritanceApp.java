@@ -7,7 +7,7 @@ class Cal {
 
     // Overloading
     public int sum(int v1, int v2, int v3) {
-        return v1 + v2 + v3;
+        return this.sum(v1, v2) + v3;
     }
 }
 
@@ -19,7 +19,7 @@ class Cal3 extends Cal{
     // Overriding
     public int sum(int v1, int v2) {
         System.out.println("Cal3!!");
-        return v1 + v2;
+        return super.sum(v1, v2);
     }
 }
 
@@ -32,6 +32,7 @@ public class InheritanceApp {
         Cal3 c3 = new Cal3();
         System.out.println(c3.sum(2, 1));
         System.out.println(c3.minus(2, 1));
+        System.out.println(c3.sum(2, 1));
     }
 }
 
